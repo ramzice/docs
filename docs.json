@@ -1,38 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "name": "Creativ Energy",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1a5632",
+    "light": "#f5f9f6",
+    "dark": "#0d2818"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
@@ -40,15 +15,34 @@
   "navbar": {
     "links": [
       {
+        "label": "Open app",
+        "href": "https://app.creativuk.co.uk"
+      },
+      {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@creativuk.co.uk"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
+    ]
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Sales reps",
+        "pages": [
+          "sales/index",
+          "sales/getting-started",
+          "sales/appointment-workflow",
+          "sales/calculator-and-pricing",
+          "sales/survey-signing-contracts",
+          "sales/opportunities-and-dashboard",
+          "sales/troubleshooting"
+        ]
+      },
+      {
+        "group": "AI assistants",
+        "pages": ["mcp"]
+      }
+    ]
   },
   "contextual": {
     "options": [
@@ -64,9 +58,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://creativuk.co.uk"
     }
   }
 }
