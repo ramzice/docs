@@ -31,10 +31,9 @@
         "pages": [
           "sales/index",
           "sales/getting-started",
-          "sales/appointment-workflow",
-          "sales/calculator-and-pricing",
-          "sales/survey-signing-contracts",
-          "sales/opportunities-and-dashboard",
+          "sales/step-by-step",
+          "sales/hometree",
+          "sales/in-app-tools",
           "sales/troubleshooting"
         ]
       },
