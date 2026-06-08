@@ -10,7 +10,7 @@ Field sales reps using the Creativ Solar app at [app.creativuk.co.uk](https://ap
 
 - **Appointments** tab (not "Opportunities" or "CRM")
 - **Solar Progress** screen
-- Outcomes: **Won** and **Quote** only — never "lost"
+- Outcomes: **Won** and **Quote**
 - Calculators: **Off Peak** and **Flux** (when both are enabled)
 - Payment: **Lopay** £500 holding payment, then **Mark Payment Complete** in the app
 
