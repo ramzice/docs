@@ -24,5 +24,5 @@ Field sales reps using the Creativ Solar app at [app.creativuk.co.uk](https://ap
 ## Do not document
 
 - CRM systems, GoHighLevel, or how appointments are created
-- Admin panels, workflow override, or user management
+- Admin-only features: **Tools**, price override, reset progress, workflow override, admin panel, opportunity management
 - Internal deployment or hosting setup
