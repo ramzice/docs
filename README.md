@@ -1,24 +1,28 @@
-# Creativ Energy documentation
+# Creativ UK — sales rep guides
 
-Mintlify docs for Creativ Solar sales reps, deployed at [creativenergy.mintlify.app](https://creativenergy.mintlify.app).
+Documentation for field sales reps using the Creativ Solar app.
 
-## Structure
+**Live site:** [creativenergy.mintlify.app](https://creativenergy.mintlify.app)
 
-- `sales/` — field rep guides (workflow, Off-peak calculator, Won/Quoted outcomes)
-- `mcp.mdx` — MCP endpoint for AI assistants
-- `docs.json` — site navigation and branding
+## Repo structure
 
-## Local preview
-
-```bash
-npm i -g mint
-mint dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000).
+sales/          Rep guides (login, workflow, Hometree, tools)
+docs.json       Site name, colours, navigation
+logo/           Creativ logo
+index.mdx       Home page
+```
 
 ## Publishing
 
-Push to `main`. Mintlify deploys automatically when the GitHub app is connected.
+Push to `main` on this repo. The site redeploys automatically.
 
-Source copies are also kept in the frontend repo at `creativuk-app/new-frontend/mintlify/` — update both when content changes, or treat this repo as the publish source of truth.
+A mirror copy lives in `creativuk-app/new-frontend/mintlify/` — treat **this repo** as the source of truth for published guides.
+
+## Brand colours (match the app)
+
+| Token | Value |
+|-------|-------|
+| Primary green | `#10b981` |
+| Light background | `#f8f9fa` |
+| Dark background | `#121212` |

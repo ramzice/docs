@@ -1,33 +1,28 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
+# Creativ UK documentation — writing guide
 
-# Documentation project instructions
+Guidelines for editing sales rep guides in this repo.
 
-## About this project
+## Audience
 
-- This is a documentation site built on [Mintlify](https://mintlify.com)
-- Pages are MDX files with YAML frontmatter
-- Configuration lives in `docs.json`
-- Use the Mintlify MCP server, `https://mcp.mintlify.com`, to edit content and settings via MCP
-- Use the Mintlify docs MCP server, `https://www.mintlify.com/docs/mcp`, to query information about using Mintlify via MCP
+Field sales reps using the Creativ Solar app at [app.creativuk.co.uk](https://app.creativuk.co.uk). Write for reps only — no CRM, ops, or admin back-office content.
 
 ## Terminology
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+- **Appointments** tab (not "Opportunities" or "CRM")
+- **Solar Progress** screen
+- Outcomes: **Won** and **Quote** only — never "lost"
+- Calculators: **Off Peak** and **Flux** (when both are enabled)
+- Payment: **Lopay** £500 holding payment, then **Mark Payment Complete** in the app
 
-## Style preferences
+## Style
 
-{/* Add any project-specific style rules below */}
+- Active voice, second person ("you")
+- Match exact button and screen labels from the app
+- Bold for UI elements: tap **Start Solar Progress**
+- Short steps — one action per line where possible
 
-- Use active voice and second person ("you")
-- Keep sentences concise — one idea per sentence
-- Use sentence case for headings
-- Bold for UI elements: Click **Settings**
-- Code formatting for file names, commands, paths, and code references
+## Do not document
 
-## Content boundaries
-
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+- CRM systems, GoHighLevel, or how appointments are created
+- Admin panels, workflow override, or user management
+- Internal deployment or hosting setup
