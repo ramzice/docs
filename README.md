@@ -7,11 +7,18 @@ Documentation for field sales reps using the Creativ Solar app.
 ## Repo structure
 
 ```
-sales/          Rep guides (login, workflow, Hometree, tools)
+sales/          Rep guides (shown in sidebar)
+admin/          Admin guides (direct link only — not in sidebar)
 docs.json       Site name, colours, navigation
 logo/           Creativ logo
 index.mdx       Home page
 ```
+
+## Admin docs (internal)
+
+Not in the sidebar. Share with admins only:
+
+**https://creativenergy.mintlify.app/admin**
 
 ## Publishing
 
